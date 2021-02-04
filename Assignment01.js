@@ -22,14 +22,20 @@ window.onload = function init()
     colors = [
         vec3(0.0, 1.0, 0.0),
         vec3(0.0, 1.0, 0.0),
-        vec3(0.0, 1.0, 0.0)
+        vec3(0.0, 11.0, 3.0),
+        vec3(0.0, 1.0, 0.0),
+        vec3(0.0, 1.0, 0.0),
+        vec3(0.0, 11.0, 3.0)
     ];
 
     // And, add our vertices point into our array of points
     points = [
         vec2(-.7, -.3 ), //1st triangle
         vec2( .7, -.3 ), 
-        vec2(-.7,  .5 ) 
+        vec2(-.7,  .5 ),
+        vec2(.2,-.3),
+        vec2(.7,-.3),
+        vec2(.5,-.7) 
         ];
 
     //  Configure WebGL
